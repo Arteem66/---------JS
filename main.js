@@ -50,10 +50,10 @@ const emojis = [
 ]
 
 const img = [
-	'https://proprikol.ru/wp-content/uploads/2019/11/krasivye-novogodnie-fotografii-63.jpg',
-	'https://funik.ru/wp-content/uploads/2018/12/c931c91d7a65b8bc0250.jpg',
-	'https://pichold.ru/wp-content/uploads/2018/11/Holidays_Christmas_360333.jpg',
-	'https://pro-dachnikov.com/uploads/posts/2023-01/1673078609_pro-dachnikov-com-p-novii-god-kamin-yelka-foto-57.jpg',
+	'img/1.jpg',
+	'img/2.jpg',
+	'img/3.jpg',
+	'img/4.jpg',
 ]
 
 const titles = [
