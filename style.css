@@ -40,6 +40,14 @@
   color: red;
 }
 
+.secret{
+  font-size: 24px;
+  max-width: 500px;
+  color: rgb(207, 255, 223);
+  z-index: 10;
+  text-align: center;
+}
+
 .image {
   object-fit: contain;
   width: 90%;

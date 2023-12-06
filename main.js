@@ -80,11 +80,17 @@ const titles = [
 	'С Новым годом! Пусть случится все хорошее, пусть рядом будут все любимые, пусть в твои двери постучится удача и большая радость. Желаю чудес и счастья в новом году!',
 ]
 
-let randomImage = random(img)
+
+let randomImage = img[1]
 displayImage(randomImage)
 
-let randomEmoji = random(emojis)
+let randomEmoji = emojis[2]
 displayEmoji(randomEmoji)
 
-let randomTitle = random(titles)
+let randomTitle = titles[3]
 displayTitle(randomTitle)
+
+if (randomImage == img[1] && randomEmoji == emojis[2] && randomTitle == titles[3]){
+	let text = document.getElementById("secret")
+	text.innerHTML = "Сделай скриншот и подойди к Любовь Васильевне за подарком!!!"
+}
