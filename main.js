@@ -81,13 +81,13 @@ const titles = [
 ]
 
 
-let randomImage = img[1]
+let randomImage = random(img)
 displayImage(randomImage)
 
-let randomEmoji = emojis[2]
+let randomEmoji = random(emojis)
 displayEmoji(randomEmoji)
 
-let randomTitle = titles[3]
+let randomTitle = random(titles)
 displayTitle(randomTitle)
 
 if (randomImage == img[1] && randomEmoji == emojis[2] && randomTitle == titles[3]){
