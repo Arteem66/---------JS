@@ -90,7 +90,3 @@ displayEmoji(randomEmoji)
 let randomTitle = random(titles)
 displayTitle(randomTitle)
 
-if (randomImage == img[1] && randomEmoji == emojis[2] && randomTitle == titles[3]){
-	let text = document.getElementById("secret")
-	text.innerHTML = "Сделай скриншот и подойди к Любовь Васильевне за подарком!!!"
-}
